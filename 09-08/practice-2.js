@@ -48,4 +48,46 @@ const collectNumbers = () => {
   );
 };
 
-collectNumbers();
+//collectNumbers();
+
+const printRightTriangle = (rows) => {
+    for (let i = 1; i <= rows; i++) {
+      console.log("* ".repeat(i).trim());
+    }
+  };
+  
+printRightTriangle(5);
+
+const lowerLeftTriangle = (rows) => {
+    for (let i = rows; i >= 1; i--) {
+      console.log("* ".repeat(i).trim());
+    }
+  };
+  
+  lowerLeftTriangle(5);
+  
+
+
+
+  const printMultiplicationTable = (num) => {
+    for (let i = 1; i <= num; i++) {
+      let row = "";
+      for (let j = 1; j <= num; j++) {
+        row += (i * j).toString().padStart(4, " ");
+      }
+      console.log(row);
+    }
+  };
+  
+  
+  printMultiplicationTable(10);
+
+  const checkString = (str) => {
+    if (str === null || str === "") {
+        return "";
+    }
+    if (str.trim() === "") {return " "}
+    return str.trim();
+  }
+
+  console.log(checkString("  hello   world     "));

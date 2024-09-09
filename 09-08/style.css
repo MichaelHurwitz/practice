@@ -1,0 +1,68 @@
+/* Reset basic styles */
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* כותרת */
+h1 {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+/* עיצוב הקופסאות */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    margin: 20px auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+/* עיצוב הכפתורים */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#color-change-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#toggle-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#apply-color {
+    background-color: #008CBA;
+    color: white;
+}
+
+#add-color-btn {
+    background-color: #555555;
+    color: white;
+}
+
+/* עיצוב של קלט טקסט ואפשרויות בחירה */
+input[type="text"], select {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 200px;
+}
+
+/* עיצוב הטקסט */
+#text {
+    position: absolute;
+    margin: 0;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Race</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="container">
+        <h1>Car Race</h1>
+        <div>
+          <label for="numCars">Enter number of cars (2-4): </label>
+          <input type="number" id="numCars" min="2" max="4" />
+          <button id="startRaceBtn">Start Race</button>
+        </div>
+      </div>
+      <div class="race-container">
+        <div id="raceContainer"></div>
+      </div>
+      <div class="results-container">
+        <div id="results"></div>
+        <div class="resetBtn-container">
+          <button id="resetBtn">Reset Race</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

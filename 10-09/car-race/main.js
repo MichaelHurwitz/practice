@@ -1,6 +1,6 @@
-const raceContainer = document.getElementById("raceContainer");
-const startRaceBtn = document.getElementById("startRaceBtn");
-const resetBtn = document.getElementById("resetBtn");
+const raceContainer = document.getElementById("race-container");
+const startRaceBtn = document.getElementById("start-race-btn");
+const resetBtn = document.getElementById("reset-btn");
 const results = document.getElementById("results");
 let finishedCars = [], raceStartTime, numCars, tracks = [];
 
@@ -20,7 +20,7 @@ const updateFinishLinePositions = () => {
 
 // Start race
 startRaceBtn.addEventListener("click", () => {
-    numCars = +document.getElementById("numCars").value;
+    numCars = +document.getElementById("num-cars").value;
 
     if (numCars < 2 || numCars > 4) {
         alert("Please enter a number between 2 and 4");

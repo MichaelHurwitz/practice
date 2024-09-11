@@ -45,7 +45,7 @@ body {
 }
 
 
-.container {
+.input-container {
     padding: 30px;
     margin: 20px;
     border-radius: 8px;
@@ -154,7 +154,7 @@ button:hover {
 
 
 
-#resetBtn {
+#reset-btn {
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #000000;
@@ -164,11 +164,11 @@ button:hover {
     display: none;
 }
 
-#resetBtn.show {
+#reset-btn.show {
     display: inline-block;
 }
 
-#resetBtn:hover {
+#reset-btn:hover {
     background-color: #ffffff;
     color: black;
 }
